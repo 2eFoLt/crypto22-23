@@ -13,8 +13,5 @@ def decrypt(text, i_shift):
     print(result1)
 
 
-# text_object = open('текст.txt', 'r')
-# line = text_object.readline()
-# print(line)
 encrypt('яэяэ'.replace('ё', 'е'), 1)
 decrypt('аюаю', 1)
