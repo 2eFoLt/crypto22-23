@@ -2,7 +2,7 @@ import alphabet
 
 alpha = alphabet.get_alphabet().upper()
 word = "РЕСПУБЛИКА"
-text = "ТЕКСТДЛЯШИФРОВАНИЯ"
+text = "ТЕКСТДЛЯШИФРОВАНИЯВГ"
 
 
 def strip(target, source):
@@ -44,7 +44,7 @@ def inline_cypher(pair, source):
     target = find_line(pair[0], source)
     res_pair = []
     for i in pair:
-        if target.index(i) - 1 > len(target) - 1:
+        if target.index(i) + 1 > len(target) - 1:
             res_pair.append(target[0])
         else:
             res_pair.append(target[target.index(i) + 1])

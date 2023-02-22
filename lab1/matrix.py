@@ -1,6 +1,5 @@
 import alphabet
 import numpy as np
-from math import ceil
 
 
 def convert(matrix):
