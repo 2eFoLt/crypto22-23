@@ -10,3 +10,11 @@ def get_decimal_alphabet(b):
 
 def get_alphabet():
     return alphabet
+
+
+def get_pos(c):
+    return alphabet.index(c) + 1
+
+
+def get_char(n):
+    return alphabet[n-1]
